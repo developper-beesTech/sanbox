@@ -2,7 +2,7 @@ const sqrt = require("../src/sqrt")
 
 describe("Square root", () => {
           it("Should return exact sqrt", () => {
-                    expect(sqrt(4)).toBe(2)
+                    expect(sqrt(4)).toBe(3)
           })
           it("Should return exact sqrt with quotes", () => {
                     expect(sqrt("4")).toBe(2)
